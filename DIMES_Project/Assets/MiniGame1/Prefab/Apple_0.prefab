@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5149650841883209293}
   - component: {fileID: 6382894790191165791}
   - component: {fileID: 424694027315677060}
+  - component: {fileID: 4472201615962611660}
   - component: {fileID: -2737335834533356756}
   m_Layer: 0
   m_Name: Apple_0
@@ -103,7 +104,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -121,6 +122,18 @@ PolygonCollider2D:
       - {x: 0.1875, y: 0.125}
       - {x: 0.09375, y: 0.1875}
       - {x: 0.03125, y: 0.28125}
+--- !u!114 &4472201615962611660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7337709437875697444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b704bfe56454653b94ee6e57c5b142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &-2737335834533356756
 Rigidbody2D:
   serializedVersion: 4

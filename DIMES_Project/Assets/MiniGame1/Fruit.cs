@@ -27,5 +27,7 @@ public class Fruit : MonoBehaviour
             
         }
     }
+
+    
 }
     // Update is called once per frame
